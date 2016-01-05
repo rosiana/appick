@@ -3688,9 +3688,9 @@ html {
 }
 
 .caretslide {
-  color: #eee !important;
+  color: #444 !important;
   font-family: 'Lato', sans-serif !important;
-  font-size: 15px !important;
+  font-size: 20px !important;
 }
 
 .inputsub {
@@ -3709,4 +3709,13 @@ html {
 .upleft {
   text-align: center !important;
   font-size: 20px;
+}
+
+.seemore {
+  text-align: center;
+}
+
+.seemore > a {
+  text-transform: uppercase;
+  color: #aaa !important;
 }
