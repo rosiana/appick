@@ -3705,3 +3705,8 @@ html {
 .listcat {
   padding-bottom: 20px;
 }
+
+.upleft {
+  text-align: center !important;
+  font-size: 20px;
+}
