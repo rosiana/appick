@@ -3719,3 +3719,51 @@ html {
   text-transform: uppercase;
   color: #aaa !important;
 }
+
+.getbtn {
+  background-color: #58b3aa !important;
+  border-color: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-shadow: 0 1px 1px #aaa;
+}
+
+.getbtn:hover {
+  background-color: #fff !important;
+  color: #58b3aa !important;
+}
+
+.savebtn {
+  background-color: #91c4bf !important;
+  border-color: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-shadow: 0 1px 1px #aaa;
+}
+
+.savebtn:hover {
+  background-color: #fff !important;
+  color: #58b3aa !important;
+}
+
+.collage-cell-big{  
+    height: 250px;  
+    padding-left: 2px;  
+    padding-right: 2px;  
+    overflow-x: hidden;
+    overflow-y: hidden;
+}  
+  
+.collage-cell-small{  
+    height: 160px;  
+    padding-left: 2px;  
+    padding-right: 2px;  
+    padding-top: 4px;  
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.media {
+  min-height: 100%;
+  min-width: 100%;
+}
