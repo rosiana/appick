@@ -3750,9 +3750,10 @@ html {
     height: 250px;  
     padding-left: 2px;  
     padding-right: 2px;  
+    padding-top: 4px;  
     overflow-x: hidden;
     overflow-y: hidden;
-}  
+}
   
 .collage-cell-small{  
     height: 160px;  
@@ -3766,4 +3767,80 @@ html {
 .media {
   min-height: 100%;
   min-width: 100%;
+}
+
+.facebook {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #314b87 !important;
+  border-color: transparent !important;
+}
+.twitter {
+  padding-left: 22px;
+  padding-right: 23px;
+  background-color: #0dd0ed !important;
+  border-color: transparent !important;
+}
+.facebook:hover {
+  background-color: #fff !important;
+  color: #314b87 !important;
+  border-color: #314b87 !important;
+}
+.twitter:hover {
+  background-color: #fff !important;
+  color: #0dd0ed !important;
+  border-color: #0dd0ed !important;
+}
+
+.sharegroup {
+  text-align: right;
+}
+
+.rightpanel {
+  height: 50px;
+}
+
+.well {
+  box-shadow: none;
+  background-color: #f3f8f7;
+  border-radius: 0;
+  border-color: transparent;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.rowright {
+  margin-bottom: 10px;
+}
+
+.title-custom {
+  font-weight: 300;
+  display: inline-block;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  font-size: 14px;
+}
+.voters {
+  margin-top: 10px;
+}
+.voters > li {
+  margin-right: -8px;
+}
+
+.simprod-desc {
+  font-size: 11px;
+}
+
+.simprod-thumb {
+  margin-top: 8px;
+}
+
+.simprod {
+  margin-left: -20px;
+}
+
+.comments {
+  margin-top: 20px;
 }
