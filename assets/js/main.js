@@ -167,12 +167,15 @@ $(document).ready(function($) {
     pagination: false,
     slideSpeed : 400,
     stopOnHover: true,
-    autoPlay: 3000,
+    autoPlay: false,
     items : 3,
     itemsDesktop : [1024,3],
     itemsDesktopSmall : [960,2],
     itemsTablet: [640,2],
-    itemsMobile : [480, 1]
+    itemsMobile : [480, 1],
+    margin:10,
+    loop:true,
+    autoWidth:true
   });
 
   // Touch Carousel
@@ -466,7 +469,7 @@ jQuery(document).ready(function() {
     soloArrowRightHOffset: 20,
     soloArrowRightVOffset: 0,
     shadow: 0,
-    fullWidth: "on",
+    fullWidth: "off",
     fullScreen: "off",
     spinner: "spinner1",
     stopLoop: "off",

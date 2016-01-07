@@ -125,11 +125,11 @@ a {
   margin-right: 10px;
 }
 .section {
-  padding-top: 50px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 .section-title {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   padding-left: 15px;
@@ -1443,7 +1443,9 @@ input[type="submit"] {
   line-height: 80px;
 }
 .project .projects-box {
-  padding: 5px 0px 30px;
+  padding-right: 10px;
+  height: 200px;
+  min-width: 100%;
 }
 .project .projects-box .projects-thumb {
   margin-bottom: 20px;
@@ -2579,7 +2581,7 @@ blockquote .quote-text {
   border-bottom: 1px solid;
 }
 .projects-carousel {
-  width: 1150px !important;
+  /*width: 1150px !important; */
 }
 .projects-carousel .item {
   margin-right: 15px;
@@ -3843,4 +3845,63 @@ html {
 
 .comments {
   margin-top: 20px;
+}
+
+.profpic {
+  height: 140px;
+  width: 140px;
+}
+
+.otw {
+  margin-bottom: -15px;
+}
+
+#slider {
+  padding: 50px 0px;
+}
+#slider .block {
+  padding: 0px 40px;
+}
+#slider .block .title {
+  padding: 0px ;
+}
+#slider .block .owl-carousel {
+  padding-top: 30px;
+  position: relative;
+  text-align: center;
+}
+#slider .block .owl-carousel img {
+  padding-right: 30px;
+  border-radius: 2px;
+  padding-bottom: 50px;
+}
+#slider .block .owl-carousel .owl-pagination .active {
+  background: #FF5333;
+}
+#slider .block .owl-carousel .owl-pagination div {
+  background: #DADADA;
+  border-radius: 100%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}
+#slider .block .owl-carousel .owl-buttons {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  font-size: 40px;
+  color: #AA9D84;
+}
+
+.follow {
+  background-color: #58b3aa !important;
+  border-color: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.follow:hover {
+  background-color: #fff !important;
+  color: #58b3aa !important;
 }

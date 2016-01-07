@@ -709,7 +709,6 @@ if (typeof Object.create !== "function") {
                 base.play();
             }
         },
-        /*
 
         play : function () {
             var base = this;
@@ -722,7 +721,6 @@ if (typeof Object.create !== "function") {
                 base.next(true);
             }, base.options.autoPlay);
         },
-        */
 
         swapSpeed : function (action) {
             var base = this;
@@ -762,13 +760,11 @@ if (typeof Object.create !== "function") {
                 "transform": "translate3d(" + pixels + "px, 0px,0px)"
             };
         },
-        /*
 
         transition3d : function (value) {
             var base = this;
             base.$owlWrapper.css(base.doTranslate(value));
         },
-        */
 
         css2move : function (value) {
             var base = this;
@@ -1456,7 +1452,7 @@ if (typeof Object.create !== "function") {
     $.fn.owlCarousel.options = {
 
         items : 5,
-        itemsCustom : false,
+        itemsCustom : true,
         itemsDesktop : [1199, 4],
         itemsDesktopSmall : [979, 3],
         itemsTablet : [768, 2],
@@ -1469,7 +1465,7 @@ if (typeof Object.create !== "function") {
         paginationSpeed : 800,
         rewindSpeed : 1000,
 
-        /* autoPlay : false, */
+        autoPlay : false,
         stopOnHover : false,
 
         navigation : false,
