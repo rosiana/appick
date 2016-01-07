@@ -340,6 +340,9 @@ input[type="submit"] {
   -o-background-size: cover !important;
   background-size: cover !important;
 }
+.sliderproduct {
+  z-index: 10000;
+}
 .section.repeat-bg {
   background-repeat: repeat;
   -webkit-background-size: auto !important;
@@ -2486,6 +2489,10 @@ blockquote .quote-text {
   font-size: 14px;
   margin-bottom: 20px;
 }
+.comments {
+  margin-top: -20px;
+}
+
 #comments .comments-list {
   padding: 0;
   margin: 0 0 35px 0;
@@ -3735,6 +3742,18 @@ html {
   color: #58b3aa !important;
 }
 
+.postbtn {
+  background-color: #58b3aa !important;
+  border-color: transparent;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.getbtn:hover {
+  background-color: #fff !important;
+  color: #58b3aa !important;
+}
+
 .savebtn {
   background-color: #91c4bf !important;
   border-color: transparent;
@@ -3746,6 +3765,11 @@ html {
 .savebtn:hover {
   background-color: #fff !important;
   color: #58b3aa !important;
+}
+
+.postrow {
+  text-align: right;
+  margin-top: -20px;
 }
 
 .collage-cell-big{  
@@ -3904,4 +3928,45 @@ html {
 .follow:hover {
   background-color: #fff !important;
   color: #58b3aa !important;
+}
+
+.carousel-ex ul { 
+  overflow:hidden; 
+  white-space:nowrap; 
+  margin:0; 
+  padding:0; 
+  list-style:none; 
+  position:relative; 
+}
+
+.carousel-ex li { 
+  display:inline-block;
+  height: 150px;
+}
+
+.prevnext {
+  text-align: right;
+  height: 30px;
+}
+
+.slider1 {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.slider-item {
+  margin-right: 10px;
+}
+
+.prev, .next {
+  color: #91c4bf;
+}
+
+.dropdown-menu > li > a {
+  color: #aaa;
+  text-shadow: none;
+}
+
+.dropdown-menu > li > a:hover {
+  color: #91c4bf;
 }
