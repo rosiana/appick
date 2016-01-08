@@ -100,7 +100,7 @@ p strong {
   color: #fff;
 }
 a {
-  color: #444;
+  color: #666;
 }
 .fittext {
   font-size: 38px;
@@ -863,6 +863,9 @@ input[type="submit"] {
   opacity: 0;
   transition-property: opacity;
 }
+.item {
+  position: relative;
+}
 #carousel-area .carousel-inner .active {
   opacity: 1;
 }
@@ -1280,7 +1283,6 @@ input[type="submit"] {
 .featured-header .featured-title h4 a {
   color: #fff;
   font-size: 14px;
-  text-transform: uppercase;
   line-height: 22px;
 }
 .featured-header .featured-title p {
@@ -1379,7 +1381,6 @@ input[type="submit"] {
   font-size: 14px;
   font-weight: 600;
   color: #fff;
-  text-transform: uppercase;
 }
 .team-member .info p {
   color: #fff;
@@ -1475,7 +1476,6 @@ input[type="submit"] {
 .project .projects-box .projects-content h4 {
   padding-bottom: 10px;
   font-size: 16px;
-  text-transform: uppercase;
 }
 .project .projects-box .projects-content h4 a:hover {
   color: #ffbb02;
@@ -2490,7 +2490,7 @@ blockquote .quote-text {
   font-size: 14px;
   margin-bottom: 20px;
 }
-.comments {
+.commentsrow {
   margin-top: -20px;
 }
 
@@ -3698,9 +3698,17 @@ html {
 }
 
 .caretslide {
-  color: #444 !important;
+  color: #ccc !important;
   font-family: 'Lato', sans-serif !important;
   font-size: 20px !important;
+}
+
+.caretslide > a > i {
+  color: #ccc !important;
+}
+
+.caretslide > a > i:hover {
+  color: #58b3aa !important;
 }
 
 .inputsub {
@@ -3735,7 +3743,6 @@ html {
   border-color: transparent;
   padding-right: 15px;
   padding-left: 15px;
-  box-shadow: 0 1px 1px #aaa;
 }
 
 .getbtn:hover {
@@ -3760,7 +3767,6 @@ html {
   border-color: transparent;
   padding-right: 15px;
   padding-left: 15px;
-  box-shadow: 0 1px 1px #aaa;
 }
 
 .savebtn:hover {
@@ -3858,10 +3864,13 @@ html {
 
 .simprod-desc {
   font-size: 11px;
+  line-height: 16px;
 }
 
 .simprod-thumb {
   margin-top: 8px;
+  width: 120px;
+  height: 70px;
 }
 
 .simprod {
@@ -3992,7 +4001,7 @@ html {
 }
 
 small {
-  color: #aaa;
+  color: #aaa !important;
 }
 
 .slider-title {
@@ -4000,4 +4009,52 @@ small {
 }
 .slider-title:hover {
   color: #91c4bf !important;
+}
+
+.prodlistimg {
+  width: 250px;
+  height: 150px;
+  margin-top: 5px;
+}
+
+.commentside {
+  text-align: right;
+  color: #666;
+}
+
+.listdesc {
+  height: 95px;
+}
+
+.indexproducts {
+  width: 240px;
+  height: 125px;
+}
+
+.index-desc {
+  height: 80px;
+}
+
+.indexprodtitle {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+.upvotes {
+  text-align: right;
+}
+
+.appsindex {
+  margin-bottom: 50px;
+}
+
+.shade {
+  position: absolute;
+}
+
+.descprod {
+  margin-top: -10px;
+}
+
+.descprod > p {
+  color: #888 !important;
 }
