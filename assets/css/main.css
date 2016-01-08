@@ -3970,3 +3970,33 @@ html {
 .dropdown-menu > li > a:hover {
   color: #91c4bf;
 }
+
+.reglog {
+  height: 35px;
+  margin-top: -20px;
+}
+
+.reglogarea {
+  margin-top: -20px;
+}
+
+.modal-dialog {
+  width: 35%;
+}
+#register, #nextregister {
+  top: 15%;
+}
+#login {
+  top: 20%;
+}
+
+small {
+  color: #aaa;
+}
+
+.slider-title {
+  color: #fff !important;
+}
+.slider-title:hover {
+  color: #91c4bf !important;
+}
