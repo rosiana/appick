@@ -30,7 +30,7 @@ a {
   -ms-transition: color 0.2s ease-in-out;
 }
 a:hover {
-  color: #444;
+  color: #91c4bf !important;
 }
 a,
 a:hover,
@@ -1729,6 +1729,7 @@ footer a {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
+  background-color: #58b3aa !important;
 }
 .switcher-box {
   width: 236px;
